@@ -15,12 +15,12 @@ import java.io.IOException;
  * An object of this controller class will be instantiated and executed by invoking it's run method.
  * Implementing the CommandLineRunner interface makes this bean an executable bean.
  */
+/*
 @Configuration
 public class MailController implements CommandLineRunner {
 
-    /*
-     * This bean makes use of the JavaMailSender in order to send mail
-     */
+
+    // This bean makes use of the JavaMailSender in order to send mail
     @Autowired
     private JavaMailSender javaMailSender;
 
@@ -48,3 +48,6 @@ public class MailController implements CommandLineRunner {
         javaMailSender.send(msg);
     }
 }
+
+
+ */
